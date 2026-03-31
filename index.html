@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>カフェオーナー向けLP | 花論珈琲茶房フランチャイズ</title>
+  <meta name="description" content="未経験からのスタートで堅実なカフェ経営。花論珈琲茶房フランチャイズ。" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" />
+  <link rel="stylesheet" href="/css/style.css" />
+  
+</head>
+<body>
+  
+
+
+<!-- HERO — from hero-section.tsx -->
+<section class="hero">
+  <img src="/images/hero.png" alt="カフェオーナー" class="hero__bg" />
+  <div class="hero__overlay"></div>
+  <div class="hero__content">
+    <div class="hero__copy">
+      <div class="hero__heading-group">
+        <h1 class="hero__h1">
+          <span class="hero__line">未経験からでも</span>
+          <span class="hero__line">カフェ経営で</span>
+          <span class="hero__line">安定収益をつくる</span>
+        </h1>
+      </div>
+      <div class="hero__blur">
+        <div class="hero__blur-bg"></div>
+        <p>30代・40代から始める開業モデル</p>
+      </div>
+      <div class="hero__checks mb-20px">
+        <p><span class="hero__check-icon"><svg viewBox="0 0 12 12" fill="none"><polyline points="2,6 5,9 10,3" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>少人数運営</p>
+        <p><span class="hero__check-icon"><svg viewBox="0 0 12 12" fill="none"><polyline points="2,6 5,9 10,3" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>月商最高300万円</p>
+      </div>
+    </div>
+    <div class="hero__cta-wrap">
+      <button onclick="scrollToForm()" class="hero__cta-btn">開業プランはこちらから&gt;&gt;</button>
+      <p class="hero__cta-note">※1分で入力完了 / 完全無料</p>
+    </div>
+  </div>
+</section>
+
+<!-- VIDEO — from video-section.tsx -->
+<section class="video-sec">
+  <div class="video-sec__inner">
+    <div class="video-sec__hd">
+      <h2>プロモーションビデオ</h2>
+      <p>カフェ経営の魅力を動画でご紹介</p>
+    </div>
+    <div class="video-box">
+      <div class="video-box__play">
+        <button class="video-play-btn" aria-label="動画を再生">
+          <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+        </button>
+        <div class="video-label">動画を再生</div>
+      </div>
+    </div>
+    <p class="video-note">30秒で分かる！花論珈琲茶房の魅力</p>
+  </div>
+</section>
+
+<!-- COFFEE VIDEO — from coffee-brewing-video.tsx -->
+<section class="coffee-video-sec">
+  <div class="coffee-video-sec__inner">
+    <div class="coffee-video-box">
+      <div class="coffee-video-inner">
+        <div>
+          <button class="coffee-play-btn" aria-label="コーヒー動画を再生">
+            <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+          </button>
+          <p class="coffee-video-caption">一杯一杯、丁寧に淹れるコーヒー</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY — from store-gallery-section.tsx -->
+<section class="gallery-sec">
+  <div class="gallery-sec__inner">
+    <div class="gallery-sec__hd">
+      <h2>本物の一杯を、丁寧な空間で</h2>
+      <p>本格的なカフェ空間で、お客様に特別な体験を</p>
+    </div>
+    <div class="gallery-grid">
+      <div class="gallery-card"><img src="/images/gallery-interior.png" alt="店舗内観" loading="lazy"/><div class="gallery-card__ov"></div></div>
+      <div class="gallery-card"><img src="/images/gallery-siphon.png"   alt="サイフォンコーヒー" loading="lazy"/><div class="gallery-card__ov"></div></div>
+      <div class="gallery-card"><img src="/images/gallery-sign.png"     alt="店舗看板" loading="lazy"/><div class="gallery-card__ov"></div></div>
+      <div class="gallery-card"><img src="/images/gallery-cake.png"     alt="スイーツ" loading="lazy"/><div class="gallery-card__ov"></div></div>
+      <div class="gallery-card"><img src="/images/gallery-cup.png"      alt="コーヒーカップ" loading="lazy"/><div class="gallery-card__ov"></div></div>
+      <div class="gallery-card"><img src="/images/gallery-desserts.png" alt="デザート" loading="lazy"/><div class="gallery-card__ov"></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- TARGET — from target-section.tsx -->
+<section class="target-sec">
+  <div class="target-sec__inner">
+    <h2>こんな方におすすめ</h2>
+    <div class="target-grid">
+      <div class="target-card"><div class="target-dot"><svg viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg></div><p>カフェをやってみたい</p></div>
+      <div class="target-card"><div class="target-dot"><svg viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg></div><p>独立・副業に興味がある</p></div>
+      <div class="target-card"><div class="target-dot"><svg viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg></div><p>飲食未経験でも挑戦したい</p></div>
+      <div class="target-card"><div class="target-dot"><svg viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg></div><p>地元でビジネスをしたい</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- SEMINAR — from seminar-application-section.tsx -->
+<section id="seminar-section" class="seminar-sec">
+  <div class="seminar-sec__inner">
+    <div class="seminar-hd">
+      <div class="seminar-badge">無料セミナー開催中</div>
+      <h2>カフェオーナーセミナー</h2>
+      <p>未経験から始めるカフェ経営のすべてを学べる特別セミナー</p>
+    </div>
+
+    <div class="seminar-cards">
+      
+      
+      <div class="seminar-card" data-seminar-id="1">
+        <div class="seminar-check" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+        </div>
+        <div class="seminar-card__body">
+          <div class="seminar-row">
+            <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            <div>
+              <p class="seminar-date">2026年4月20日<span>(月)</span></p>
+              <p class="seminar-time">15:00-16:00</p>
+            </div>
+          </div>
+          <div class="seminar-row">
+            <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <p class="seminar-loc">東京・丸の内</p>
+          </div>
+          <div class="seminar-row">
+            <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            <p class="seminar-seats">残り<strong>4</strong>席</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="seminar-card" data-seminar-id="2">
+        <div class="seminar-check" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+        </div>
+        <div class="seminar-card__body">
+          <div class="seminar-row">
+            <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            <div>
+              <p class="seminar-date">2026年4月20日<span>(月)</span></p>
+              <p class="seminar-time">18:00-19:00</p>
+            </div>
+          </div>
+          <div class="seminar-row">
+            <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <p class="seminar-loc">東京・丸の内</p>
+          </div>
+          <div class="seminar-row">
+            <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            <p class="seminar-seats">残り<strong>4</strong>席</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="seminar-card" data-seminar-id="3">
+        <div class="seminar-check" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+        </div>
+        <div class="seminar-card__body">
+          <div class="seminar-row">
+            <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            <div>
+              <p class="seminar-date">2026年5月10日<span>(日)</span></p>
+              <p class="seminar-time">18:00-19:00</p>
+            </div>
+          </div>
+          <div class="seminar-row">
+            <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <p class="seminar-loc">大阪・梅田</p>
+          </div>
+          <div class="seminar-row">
+            <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            <p class="seminar-seats">残り<strong>4</strong>席</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="seminar-card" data-seminar-id="4">
+        <div class="seminar-check" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+        </div>
+        <div class="seminar-card__body">
+          <div class="seminar-row">
+            <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            <div>
+              <p class="seminar-date">2026年5月11日<span>(月)</span></p>
+              <p class="seminar-time">14:00-16:00</p>
+            </div>
+          </div>
+          <div class="seminar-row">
+            <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <p class="seminar-loc">福岡・天神</p>
+          </div>
+          <div class="seminar-row">
+            <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            <p class="seminar-seats">残り<strong>4</strong>席</p>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+
+    <div class="seminar-form-box">
+      <h3>参加申し込みフォーム</h3>
+      <div id="seminar-notice" class="seminar-notice">↑ まず参加希望のセミナー日程を選択してください</div>
+      <form id="seminar-form">
+        <input type="hidden" id="selected-seminar" name="seminar_id" />
+        <div class="form-field"><label>お名前 <span class="req">*</span></label><input type="text" name="name" required disabled class="form-input seminar-form-input" placeholder="山田 太郎"/></div>
+        <div class="form-field"><label>メールアドレス <span class="req">*</span></label><input type="email" name="email" required disabled class="form-input seminar-form-input" placeholder="example@email.com"/></div>
+        <div class="form-field"><label>電話番号</label><input type="tel" name="phone" disabled class="form-input seminar-form-input" placeholder="090-1234-5678"/></div>
+        <div class="form-field"><label>備考</label><textarea name="notes" rows="4" disabled class="form-input seminar-form-input" placeholder="その他の日程をご希望の場合にはこちらへご記入ください"></textarea></div>
+        <button type="submit" id="seminar-submit-btn" disabled class="seminar-submit">
+          セミナーに参加申し込み
+          <svg viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+        </button>
+      </form>
+      <p class="seminar-form-note">※ セミナーは完全無料です。当日は事業計画書のサンプルもプレゼント！</p>
+    </div>
+  </div>
+</section>
+
+<!-- WHY CAFE — from why-cafe-section.tsx -->
+<section class="why-sec">
+  <div class="why-sec__inner">
+    <h2>なぜ今、カフェビジネスなのか？</h2>
+    <p>安定した市場で確実に成長できる理由があります</p>
+    <div class="why-grid">
+      <div class="why-card">
+        <div class="why-icon"><svg viewBox="0 0 24 24"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg></div>
+        <h3>カフェ市場は安定成長</h3>
+        <p>需要が継続的に増加している業界</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon"><svg viewBox="0 0 24 24"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg></div>
+        <h3>テイクアウトやオリジナルメニューなど拡張可能ビジネス</h3>
+        <p>時代に合った柔軟なビジネスモデル</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon"><svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></div>
+        <h3>小規模・未経験者でも成立するモデル</h3>
+        <p>誰でも始めやすいビジネス</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA 1 — from cta-button-section.tsx -->
+<section class="cta-sec">
+  <div class="cta-sec__inner">
+    <button onclick="scrollToForm()" class="cta-btn">開業プランはこちらから&gt;&gt;</button>
+    <p class="cta-note">※1分で入力完了 / 完全無料</p>
+  </div>
+</section>
+
+<!-- BUSINESS MODEL — from business-model-section.tsx -->
+<section class="model-sec">
+  <div class="model-sec__inner">
+    <h2>花論珈琲茶房フランチャイズの仕組み</h2>
+    <div class="model-layout">
+      <div>
+        <div class="model-feature">
+          <div class="model-icon"><svg viewBox="0 0 24 24"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg></div>
+          <div><h3>北海道素材のカフェブランド</h3><p>厳選北海道産の素材を使用し独自性のあるメニュー展開</p></div>
+        </div>
+        <div class="model-feature">
+          <div class="model-icon"><svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+          <div><h3>フランチャイズ形式</h3><p>確立されたビジネスモデルで、リスクを最小限に抑える</p></div>
+        </div>
+        <div class="model-feature">
+          <div class="model-icon"><svg viewBox="0 0 24 24"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg></div>
+          <div><h3>集客ノウハウ提供</h3><p>実績のあるマーケティング手法で、安定した集客を実現</p></div>
+        </div>
+      </div>
+      <div class="model-stats-box">
+        <h3>想定モデル</h3>
+        <div class="model-stat-card"><p class="lbl">月商</p><p class="val">〜300<small>万円（最高実績）</small></p></div>
+        <div class="model-stat-card"><p class="lbl">運営</p><p class="val"><small>少人数OK・本社がサポート</small></p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ATMOSPHERE — from atmosphere-section.tsx -->
+<section class="atm-sec">
+  <div class="atm-sec__inner">
+    <div class="atm-grid">
+      <div class="gallery-card"><img src="/images/atm-shelf.png"    alt="棚の雰囲気" loading="lazy"/><div class="gallery-card__ov"></div></div>
+      <div class="gallery-card"><img src="/images/atm-entrance.png" alt="入口"       loading="lazy"/><div class="gallery-card__ov"></div></div>
+      <div class="gallery-card"><img src="/images/atm-beverage.png" alt="ドリンク"   loading="lazy"/><div class="gallery-card__ov"></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- SUPPORT — from support-section.tsx -->
+<section class="support-sec">
+  <div class="support-sec__inner">
+    <div class="support-hd">
+      <div class="support-badge">安心のサポート体制</div>
+      <h2>未経験でも安心の理由</h2>
+      <p>開業前から開業後まで、徹底的にサポートします</p>
+    </div>
+    <div class="support-grid">
+      <div class="support-box">
+        <h3>開業前のサポート</h3>
+        <div class="support-item"><div class="support-item-icon"><svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div><p>立地選定サポート</p></div>
+        <div class="support-item"><div class="support-item-icon"><svg viewBox="0 0 24 24"><path d="M3 2h18l-2 7H5L3 2z"/><path d="M5 9l2 13h10l2-13"/></svg></div><p>メニュープラン作成</p></div>
+        <div class="support-item"><div class="support-item-icon"><svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg></div><p>運営マニュアル完備</p></div>
+      </div>
+      <div class="support-box">
+        <h3>開業後のサポート</h3>
+        <div class="support-item"><div class="support-item-icon"><svg viewBox="0 0 24 24"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg></div><p>開業前研修あり</p></div>
+        <div class="support-item"><div class="support-item-icon"><svg viewBox="0 0 24 24"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg></div><p>販促支援</p></div>
+        <div class="support-item"><div class="support-item-icon"><svg viewBox="0 0 24 24"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/></svg></div><p>継続フォロー</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA 2 -->
+<section class="cta-sec">
+  <div class="cta-sec__inner">
+    <button onclick="scrollToForm()" class="cta-btn">開業プランはこちらから&gt;&gt;</button>
+    <p class="cta-note">※1分で入力完了 / 完全無料</p>
+  </div>
+</section>
+
+<!-- STATS — from stats-section.tsx -->
+<section class="stats-sec">
+  <div class="stats-sec__inner">
+    <h2>全国に展開中</h2>
+    <p class="stats-lead">多くのオーナー様に選ばれています</p>
+    <div class="stats-layout">
+      <div>
+        <div class="stats-img-wrap">
+          <div class="stats-img-box"><img src="/images/stats-franchise.png" alt="フランチャイズショー出展"/></div>
+        </div>
+      </div>
+      <div class="stats-right">
+        <div class="stats-count-box">
+          <svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+          <div><p class="num">10+</p><p class="lbl">店舗展開中</p></div>
+        </div>
+        <div class="stats-areas-box">
+          <div class="stats-areas-hd">
+            <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <h3>展開エリア</h3>
+          </div>
+          <div class="areas-grid">
+            <div class="area-tag">北海道</div>
+            <div class="area-tag">関東</div>
+            <div class="area-tag">中部</div>
+            <div class="area-tag">九州</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="stats-bottom">
+      <p>テレビ・雑誌・Webなど多数メディア掲載実績多数</p>
+      <p>東京ビッグサイト開催フランチャイズショー出展実績あり</p>
+    </div>
+  </div>
+</section>
+
+<!-- VOICES — from voices-section.tsx -->
+<section class="voices-sec">
+  <div class="voices-sec__inner">
+    <h2>オーナーの声</h2>
+    <p>実際に開業されたオーナー様の生の声</p>
+    <div class="voices-grid">
+      <div class="voice-card">
+        <svg class="voice-quote-icon" viewBox="0 0 24 24"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"/><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"/></svg>
+        <p>未経験から3ヶ月で開業できました</p>
+        <hr/>
+        <div class="voice-author">
+          <div class="voice-avatar"><img src="https://images.unsplash.com/photo-1594404430367-9858af713541?w=128&h=128&fit=crop" alt="田中様" loading="lazy"/></div>
+          <div><p class="voice-name">田中様</p><p class="voice-profile">30代 / 会社員→独立</p></div>
+        </div>
+      </div>
+      <div class="voice-card">
+        <svg class="voice-quote-icon" viewBox="0 0 24 24"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"/><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"/></svg>
+        <p>副業からスタートできました</p>
+        <hr/>
+        <div class="voice-author">
+          <div class="voice-avatar"><img src="https://images.unsplash.com/photo-1739723745132-97df9db49db2?w=128&h=128&fit=crop" alt="佐藤様" loading="lazy"/></div>
+          <div><p class="voice-name">佐藤様</p><p class="voice-profile">40代 / 会社員（副業）</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA 3 -->
+<section class="cta-sec">
+  <div class="cta-sec__inner">
+    <button onclick="scrollToForm()" class="cta-btn">開業プランはこちらから&gt;&gt;</button>
+    <p class="cta-note">※1分で入力完了 / 完全無料</p>
+  </div>
+</section>
+
+<!-- FLOW — from flow-section.tsx -->
+<section class="flow-sec">
+  <div class="flow-sec__inner">
+    <h2>開業までの流れ</h2>
+    <p>シンプルな4ステップで開業まで</p>
+    <div class="flow-grid">
+      <div class="flow-step">
+        <div class="flow-num">01</div>
+        <div class="flow-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+        </div>
+        <h3>資料請求</h3>
+        <p>まずは無料で資料をお取り寄せ</p>
+        <div class="flow-arrow">
+          <svg viewBox="0 0 20 20"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/></svg>
+        </div>
+      </div>
+      <div class="flow-step">
+        <div class="flow-num">02</div>
+        <div class="flow-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        </div>
+        <h3>個別説明</h3>
+        <p>専門スタッフが丁寧にご説明</p>
+        <div class="flow-arrow">
+          <svg viewBox="0 0 20 20"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/></svg>
+        </div>
+      </div>
+      <div class="flow-step">
+        <div class="flow-num">03</div>
+        <div class="flow-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><polyline points="9 13 11 15 15 11"/></svg>
+        </div>
+        <h3>ご契約</h3>
+        <p>納得いただいた上でご契約</p>
+        <div class="flow-arrow">
+          <svg viewBox="0 0 20 20"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/></svg>
+        </div>
+      </div>
+      <div class="flow-step">
+        <div class="flow-num">04</div>
+        <div class="flow-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        </div>
+        <h3>開業</h3>
+        <p>あなたのカフェがオープン</p>
+      </div>
+    </div>
+    <div class="flow-highlight"><p>最短3ヶ月で開業可能！</p></div>
+  </div>
+</section>
+
+<!-- FAQ — from faq-section.tsx -->
+<section class="faq-sec">
+  <div class="faq-sec__inner">
+    <h2>よくある質問</h2>
+    <p>皆様からよくいただくご質問にお答えします</p>
+    <div class="faq-list">
+      
+      
+      <div class="faq-item">
+        <button class="faq-btn" aria-expanded="false">
+          <span class="faq-q">未経験でも大丈夫ですか?</span>
+          <div class="faq-icon-wrap">
+            <svg class="icon-down" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+          </div>
+        </button>
+        <div class="faq-answer hidden">はい、大丈夫です。開業前の研修プログラムや運営マニュアルを完備しており、未経験の方でも安心して開業できる体制を整えています。実際に多くのオーナー様が未経験からスタートされています。</div>
+      </div>
+      
+      <div class="faq-item">
+        <button class="faq-btn" aria-expanded="false">
+          <span class="faq-q">初期費用はどのくらいかかりますか?</span>
+          <div class="faq-icon-wrap">
+            <svg class="icon-down" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+          </div>
+        </button>
+        <div class="faq-answer hidden">店舗の規模や立地により異なりますが、詳細な費用については資料請求後の個別説明会でご説明させていただきます。資金計画のご相談も承っております。</div>
+      </div>
+      
+      <div class="faq-item">
+        <button class="faq-btn" aria-expanded="false">
+          <span class="faq-q">開業後のサポートはありますか?</span>
+          <div class="faq-icon-wrap">
+            <svg class="icon-down" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+          </div>
+        </button>
+        <div class="faq-answer hidden">はい、開業後も継続的なサポートを提供しています。立地選定、販促支援、運営相談など、成功に向けて全面的にバックアップいたします。</div>
+      </div>
+      
+      <div class="faq-item">
+        <button class="faq-btn" aria-expanded="false">
+          <span class="faq-q">副業でも始められますか?</span>
+          <div class="faq-icon-wrap">
+            <svg class="icon-down" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+          </div>
+        </button>
+        <div class="faq-answer hidden">はい、副業からのスタートも可能です。少人数での運営が可能なビジネスモデルですので、ご自身のライフスタイルに合わせた運営方法をご提案させていただきます。</div>
+      </div>
+      
+      <div class="faq-item">
+        <button class="faq-btn" aria-expanded="false">
+          <span class="faq-q">どのエリアで開業できますか?</span>
+          <div class="faq-icon-wrap">
+            <svg class="icon-down" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+          </div>
+        </button>
+        <div class="faq-answer hidden">全国各地で展開中です。具体的なエリアについては、資料請求後の個別説明会でご相談ください。立地選定のサポートもさせていただきます。</div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT FORM — from contact-form-section.tsx -->
+<section id="contact-form" class="contact-sec">
+  <div class="contact-sec__inner">
+    <div class="contact-hd">
+      <div class="contact-badge">無料資料請求</div>
+      <h2>開業資料を無料でお届け</h2>
+      <p>1分で入力完了 / 完全無料</p>
+    </div>
+    <div class="contact-form-box">
+      <form id="contact-form-el">
+        <div class="form-field"><label for="c-name">お名前 <span class="req">*</span></label><input type="text" id="c-name" name="name" required class="form-input" placeholder="山田 太郎"/></div>
+        <div class="form-field"><label for="c-email">メールアドレス <span class="req">*</span></label><input type="email" id="c-email" name="email" required class="form-input" placeholder="example@email.com"/></div>
+        <div class="form-field"><label for="c-phone">電話番号 <span style="font-size:.85rem;color:#78716c">(任意)</span></label><input type="tel" id="c-phone" name="phone" class="form-input" placeholder="090-1234-5678"/></div>
+        <div class="form-field">
+          <label for="c-interest">ご興味度 <span style="font-size:.85rem;color:#78716c">(任意)</span></label>
+          <select id="c-interest" name="interest" class="form-input">
+            <option value="">選択してください</option>
+            <option>すぐ検討したい</option>
+            <option>情報収集したい</option>
+          </select>
+        </div>
+        <div class="form-field"><label for="c-area">開業希望エリア <span style="font-size:.85rem;color:#78716c">(任意)</span></label><input type="text" id="c-area" name="area" class="form-input" placeholder="東京都"/></div>
+        <button type="submit" class="contact-submit">
+          無料で資料を受け取る
+          <svg viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+        </button>
+        <p class="contact-legal">送信いただいた情報は、プライバシーポリシーに基づき適切に管理いたします。</p>
+      </form>
+    </div>
+    <div class="contact-reassure">
+      <p>✓ 資料は無料でお届けします</p>
+      <p>✓ しつこい営業は一切いたしません</p>
+      <p>✓ 個別相談も無料で承ります</p>
+    </div>
+  </div>
+</section>
+
+<!-- STICKY BUTTON — from sticky-button.tsx -->
+<div id="sticky-btn-desktop">
+  <button onclick="scrollToForm()">
+    無料で資料を見る
+    <svg viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+  </button>
+</div>
+<div id="sticky-btn-mobile">
+  <div class="inner">
+    <button onclick="scrollToForm()">
+      無料で資料を見る
+      <svg viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+    </button>
+  </div>
+</div>
+
+
+
+  <script src="/js/main.js"></script>
+</body>
+</html>
